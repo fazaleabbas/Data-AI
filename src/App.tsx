@@ -1,5 +1,6 @@
 import React from 'react';
 import { FileUpload } from './components/FileUpload';
+import { DataSummary } from './components/analysis/DataSummary';
 import { DataPreview } from './components/DataPreview';
 import { Visualizations } from './components/Visualizations';
 import { AnalyticsPanel } from './components/analytics/AnalyticsPanel';
@@ -27,6 +28,8 @@ function App() {
             </h2>
             <FileUpload />
           </div>
+
+          <DataSummary />
 
           <div>
             <h2 className="text-lg font-semibold text-gray-900 mb-4">
